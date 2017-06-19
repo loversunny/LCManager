@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LCManager_Example' do
+  pod 'LCManager', :path => '../'
+
+  target 'LCManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

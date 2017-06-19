@@ -1,0 +1,6 @@
+framework module LCManager {
+  umbrella header "LCManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

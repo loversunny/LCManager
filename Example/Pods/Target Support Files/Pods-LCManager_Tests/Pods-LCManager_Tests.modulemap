@@ -1,0 +1,6 @@
+framework module Pods_LCManager_Tests {
+  umbrella header "Pods-LCManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

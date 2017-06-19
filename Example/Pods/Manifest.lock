@@ -1,0 +1,16 @@
+PODS:
+  - LCManager (0.1.0)
+
+DEPENDENCIES:
+  - LCManager (from `../`)
+
+EXTERNAL SOURCES:
+  LCManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LCManager: 518f39d4efb4c07c053ea08aae74bf2fb7afb26e
+
+PODFILE CHECKSUM: c2f9ec3e42f478c22fe578873cd7ed0cc276c8d1
+
+COCOAPODS: 1.2.1
