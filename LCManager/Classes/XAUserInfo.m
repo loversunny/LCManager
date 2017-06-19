@@ -35,6 +35,7 @@
     [aCoder encodeObject:self.extend2 forKey:@"extend2"];
     [aCoder encodeObject:self.extend3 forKey:@"extend3"];
     [aCoder encodeObject:self.extend4 forKey:@"extend4"];
+    
     [aCoder encodeObject:self.extend5 forKey:@"extend5"];
     
 }
