@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "LCManager"
   s.version      = "0.0.1"
-  s.summary      = "初次尝试上传项目到cocoapods."
+  s.summary      = '初次尝试上传项目到cocoapods.'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                           这是一个悲伤的故事,到底可以吗???,不能比sunmmary短,再说两句吧
-                     DESC
+  s.description  = ‘这是一个悲伤的故事,到底可以吗???,不能比sunmmary短,再说两句吧,希望可以成功啊’
 
   s.homepage     = "https://github.com/loversunny/LCManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -53,9 +51,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "JLC" => "HH330897537@163.com" }
-  # Or just: s.author    = "JLC"
-  # s.authors            = { "JLC" => "HH330897537@163.com" }
+  s.author             = { “loversunny” => "HH330897537@163.com" }
+  # Or just: s.author    = “loversunny”
+  # s.authors            = { “loversunny” => "HH330897537@163.com" }
   # s.social_media_url   = "http://twitter.com/JLC"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "/../Classes", "Classes/**/*.{h,m}"
+  s.source_files  = “LCManager/Classes", "Classes/**/*.{h,m}"
 
   s.platform  = :ios, "8.0"
   # s.exclude_files = "Classes/Exclude"
