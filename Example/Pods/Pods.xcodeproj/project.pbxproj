@@ -9,24 +9,11 @@
 /* Begin PBXBuildFile section */
 		152FAFAB317049DB892AA3718369D5CD /* LCManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3BF68456DAABEDD5C191576959174C /* LCManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B1792F943D57FDA835342D387E18B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		474CDC01A2DDE6191B1B2E1B1FF33AD6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A8A68F183570B016114D4F85F8F74 /* ReplaceMe.m */; };
 		4C8CAFE4CC3618FD61F21530436DF4E6 /* Pods-LCManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15FA188A5A5E927D90CC3D537446C9 /* Pods-LCManager_Tests-dummy.m */; };
-		608851271EF777700036D732 /* XACASDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 608851171EF777700036D732 /* XACASDK.h */; };
-		608851281EF777700036D732 /* XACASDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 608851181EF777700036D732 /* XACASDK.m */; };
-		608851291EF777700036D732 /* XABaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 608851191EF777700036D732 /* XABaseManager.h */; };
-		6088512A1EF777700036D732 /* XABaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6088511A1EF777700036D732 /* XABaseManager.m */; };
-		6088512B1EF777700036D732 /* XAManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6088511B1EF777700036D732 /* XAManager.h */; };
-		6088512C1EF777700036D732 /* XAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6088511C1EF777700036D732 /* XAManager.m */; };
-		6088512D1EF777700036D732 /* XAManagerPin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6088511D1EF777700036D732 /* XAManagerPin.h */; };
-		6088512E1EF777700036D732 /* XAManagerPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6088511E1EF777700036D732 /* XAManagerPin.m */; };
 		6088512F1EF777700036D732 /* XAUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6088511F1EF777700036D732 /* XAUserInfo.h */; };
 		608851301EF777700036D732 /* XAUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 608851201EF777700036D732 /* XAUserInfo.m */; };
-		608851311EF777700036D732 /* XAEnterpriseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 608851211EF777700036D732 /* XAEnterpriseInfo.h */; };
-		608851321EF777700036D732 /* XAEnterpriseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 608851221EF777700036D732 /* XAEnterpriseInfo.m */; };
 		608851331EF777700036D732 /* XAResultInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 608851231EF777700036D732 /* XAResultInfo.h */; };
 		608851341EF777700036D732 /* XAResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 608851241EF777700036D732 /* XAResultInfo.m */; };
-		608851351EF777700036D732 /* NSObject+LCCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 608851251EF777700036D732 /* NSObject+LCCategory.h */; };
-		608851361EF777700036D732 /* NSObject+LCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 608851261EF777700036D732 /* NSObject+LCCategory.m */; };
 		7BFBC0F2A2675AB3A97A690816D2937A /* Pods-LCManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B26868358325E45848029B10ADD72004 /* Pods-LCManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82932D956F5653FC7B160402AF91B7A0 /* LCManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E7ED8BE8C863242362409284BD35D6 /* LCManager-dummy.m */; };
 		87573261B06BE00F3C056FCE7830BEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -58,28 +45,15 @@
 		43CC5CFBD1574329DD30E4B3D78BA159 /* Pods_LCManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5445D765958DEFCFFBD67089D68170A4 /* Pods-LCManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCManager_Example-resources.sh"; sourceTree = "<group>"; };
 		5DA50F34B19292CBD27E2AEFA120CA64 /* Pods_LCManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		608851171EF777700036D732 /* XACASDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XACASDK.h; sourceTree = "<group>"; };
-		608851181EF777700036D732 /* XACASDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XACASDK.m; sourceTree = "<group>"; };
-		608851191EF777700036D732 /* XABaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABaseManager.h; sourceTree = "<group>"; };
-		6088511A1EF777700036D732 /* XABaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABaseManager.m; sourceTree = "<group>"; };
-		6088511B1EF777700036D732 /* XAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAManager.h; sourceTree = "<group>"; };
-		6088511C1EF777700036D732 /* XAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAManager.m; sourceTree = "<group>"; };
-		6088511D1EF777700036D732 /* XAManagerPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAManagerPin.h; sourceTree = "<group>"; };
-		6088511E1EF777700036D732 /* XAManagerPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAManagerPin.m; sourceTree = "<group>"; };
 		6088511F1EF777700036D732 /* XAUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAUserInfo.h; sourceTree = "<group>"; };
 		608851201EF777700036D732 /* XAUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAUserInfo.m; sourceTree = "<group>"; };
-		608851211EF777700036D732 /* XAEnterpriseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAEnterpriseInfo.h; sourceTree = "<group>"; };
-		608851221EF777700036D732 /* XAEnterpriseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAEnterpriseInfo.m; sourceTree = "<group>"; };
 		608851231EF777700036D732 /* XAResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAResultInfo.h; sourceTree = "<group>"; };
 		608851241EF777700036D732 /* XAResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAResultInfo.m; sourceTree = "<group>"; };
-		608851251EF777700036D732 /* NSObject+LCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LCCategory.h"; sourceTree = "<group>"; };
-		608851261EF777700036D732 /* NSObject+LCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LCCategory.m"; sourceTree = "<group>"; };
 		6555300DD2F9E07C954D3FE607577A4F /* Pods-LCManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B3BF68456DAABEDD5C191576959174C /* LCManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCManager-umbrella.h"; sourceTree = "<group>"; };
 		787014D87CC25F695713954ECD9B81D1 /* LCManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LCManager.modulemap; sourceTree = "<group>"; };
 		8780F3DED5E4290F84BB255B48076F0E /* LCManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCManager.xcconfig; sourceTree = "<group>"; };
-		8D2A8A68F183570B016114D4F85F8F74 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		8E8C46257595C5FF6400F132A7F70A24 /* Pods-LCManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90E96CD53DA49A780439083FF0A0B922 /* LCManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCManager-prefix.pch"; sourceTree = "<group>"; };
 		92E7ED8BE8C863242362409284BD35D6 /* LCManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCManager-dummy.m"; sourceTree = "<group>"; };
@@ -249,23 +223,10 @@
 		D56E96F5184248D25DC35575B3EBDA69 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8D2A8A68F183570B016114D4F85F8F74 /* ReplaceMe.m */,
-				608851171EF777700036D732 /* XACASDK.h */,
-				608851181EF777700036D732 /* XACASDK.m */,
-				608851191EF777700036D732 /* XABaseManager.h */,
-				6088511A1EF777700036D732 /* XABaseManager.m */,
-				6088511B1EF777700036D732 /* XAManager.h */,
-				6088511C1EF777700036D732 /* XAManager.m */,
-				6088511D1EF777700036D732 /* XAManagerPin.h */,
-				6088511E1EF777700036D732 /* XAManagerPin.m */,
 				6088511F1EF777700036D732 /* XAUserInfo.h */,
 				608851201EF777700036D732 /* XAUserInfo.m */,
-				608851211EF777700036D732 /* XAEnterpriseInfo.h */,
-				608851221EF777700036D732 /* XAEnterpriseInfo.m */,
 				608851231EF777700036D732 /* XAResultInfo.h */,
 				608851241EF777700036D732 /* XAResultInfo.m */,
-				608851251EF777700036D732 /* NSObject+LCCategory.h */,
-				608851261EF777700036D732 /* NSObject+LCCategory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,14 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				608851331EF777700036D732 /* XAResultInfo.h in Headers */,
-				608851311EF777700036D732 /* XAEnterpriseInfo.h in Headers */,
-				608851271EF777700036D732 /* XACASDK.h in Headers */,
-				6088512B1EF777700036D732 /* XAManager.h in Headers */,
 				6088512F1EF777700036D732 /* XAUserInfo.h in Headers */,
-				6088512D1EF777700036D732 /* XAManagerPin.h in Headers */,
 				152FAFAB317049DB892AA3718369D5CD /* LCManager-umbrella.h in Headers */,
-				608851351EF777700036D732 /* NSObject+LCCategory.h in Headers */,
-				608851291EF777700036D732 /* XABaseManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,15 +349,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				608851341EF777700036D732 /* XAResultInfo.m in Sources */,
-				6088512C1EF777700036D732 /* XAManager.m in Sources */,
-				608851361EF777700036D732 /* NSObject+LCCategory.m in Sources */,
 				82932D956F5653FC7B160402AF91B7A0 /* LCManager-dummy.m in Sources */,
-				6088512E1EF777700036D732 /* XAManagerPin.m in Sources */,
-				608851321EF777700036D732 /* XAEnterpriseInfo.m in Sources */,
 				608851301EF777700036D732 /* XAUserInfo.m in Sources */,
-				6088512A1EF777700036D732 /* XABaseManager.m in Sources */,
-				474CDC01A2DDE6191B1B2E1B1FF33AD6 /* ReplaceMe.m in Sources */,
-				608851281EF777700036D732 /* XACASDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
