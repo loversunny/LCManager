@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LCManager'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of LCManager.'
+  s.summary          = '初次尝试上传项目到cocoapods.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 这是一个悲伤的故事,到底可以吗???,不能比sunmmary短,再说两句吧,希望可以成功啊.
                        DESC
 
   s.homepage         = 'https://github.com/JLC/LCManager'
