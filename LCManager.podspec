@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: 这是一个悲伤的故事,到底可以吗???,不能比sunmmary短,再说两句吧,希望可以成功啊.
                        DESC
 
-  s.homepage         = 'https://github.com/JLC/LCManager'
+  s.homepage         = 'https://github.com/loversunny/LCManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JLC' => 'HH330897537@163.com' }
-  s.source           = { :git => 'https://github.com/JLC/LCManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/loversunny/LCManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
